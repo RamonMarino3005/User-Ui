@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
+}
+
+article {
+  width: 100%;
+  padding: 100px 50px 50px 50px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: grid;
+  width: 100%;
+  height: fit-content;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,57 @@
+/* Get new User Button */
+.main_item {
+  align-self: center;
+  justify-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  border: 5px solid green;
+  position: relative;
+}
+.main_item:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 41px 0px rgb(109 136 56) inset;
+}
+
+#symbolHorizontal {
+  position: absolute;
+  left: 38.5%;
+  top: 50%;
+  width: 25%;
+  height: 5px;
+  background-color: green;
+}
+
+#symbolVertical {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  height: 25%;
+  width: 5px;
+  background-color: green;
+}
+/* END */
+
+/* Refresh Users Button */
+.refreshButton {
+  font-family: Basic;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26.42px;
+
+  width: 250px;
+  height: 50px;
+
+  margin-bottom: 60px;
+
+  border-radius: 5px;
+  background-color: #02cc67;
+
+  color: aliceblue;
+}
+.refreshButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.75) inset;
+  /* background-color: rgb(86, 119, 86);*/
+  border: 3px solid green;
+}
